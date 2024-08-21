@@ -1,0 +1,26 @@
+.funcionalidades {
+    display: flex;
+    gap: 20px;
+}
+
+.funcionalidade {
+    text-align: center;
+    max-width: 300px;
+}
+
+.imagem-icone {
+    width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.funcionalidade-titulo {
+    font-size: 1.5rem;
+    color: #FF6A00;
+}
+
+.funcionalidade-descricao {
+    color: #333;
+    font-size: 1rem;
+    text-align: justify;
+}

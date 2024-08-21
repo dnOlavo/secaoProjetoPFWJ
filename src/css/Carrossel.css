@@ -1,0 +1,55 @@
+.carrossel {
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.carrossel-imagem {
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carrossel-botao {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: #F5841E;
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carrossel-anterior {
+    left: -40px;
+}
+
+.carrossel-proximo {
+    right: -40px;
+}
+
+.carrossel-indicadores {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.indicador {
+    width: 10px;
+    height: 10px;
+    background-color: #FFE1C6;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicador.ativo {
+    background-color: #E77D1D;
+}
